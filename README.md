@@ -13,6 +13,7 @@ The project will demonstrate how to leverage the concurrency features of Java, C
 1. [Technical Scope](#technical-scope)
 1. [Installation and Usage](#installation-and-usage)
 1. [Contributing](#contributing)
+1. [License](#license)
 
 <br>
 
@@ -69,3 +70,9 @@ Contributions are what make the open-source community such an amazing place to l
     git push origin feature/AmazingFeature
     ```
 5. **Open a Pull Request**
+
+<br>
+
+## License
+
+Distributed under the MIT License. See [`LICENSE`](https://github.com/siddhant-vij/Concurrent-Matrix-Multiplication/blob/main/LICENSE) for more information.
