@@ -46,9 +46,7 @@ The project will demonstrate how to leverage the concurrency features of Java, C
     cd Concurrent-Matrix-Multiplication/[language]
     ```
 3. **Install Dependencies**: Standard instructions to be followed for each language, if any external dependency.
-4. **Install the required database**: Standard instructions to be followed for each database, as required.
-3. **Build and Run the Application**: Standard instructions to be followed for each language.
-4. **Using the CLI**: Follow the on-screen prompts to perform database operations.
+4. **Build and Run the Application**: Standard instructions to be followed for each language.
 
 <br>
 
