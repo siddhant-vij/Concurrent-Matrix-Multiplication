@@ -1,14 +1,12 @@
 cmake_minimum_required(VERSION 3.28)
-project(HelloWorld VERSION 1.0)
+project(FullMatrixProject)
 
 set(CMAKE_CXX_STANDARD 23)
-set(CMAKE_CXX_STANDARD_REQUIRED True)
+set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
-# Include directories for header files
-include_directories(include)
+# Macro with the path to the Input.txt file
+add_compile_definitions(INPUT_FILE_PATH="${CMAKE_SOURCE_DIR}/Input.txt")
 
-# Recursively find all .cpp files in the src directory
-file(GLOB_RECURSE SOURCES "src/*.cpp")
-
-# Specify the executable
-add_executable(${PROJECT_NAME} ${SOURCES})
+# Add subdirectories for the library and the executable
+add_subdirectory(MatrixCreatorLib)
+add_subdirectory(MatrixMultiplication)
